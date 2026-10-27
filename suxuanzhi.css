@@ -52,7 +52,10 @@ body {
 .intro{
   flex:1;
   line-height:1.8;
-   background:linear-gradient(
+}
+.chara{
+  font-size:30px;
+    background:linear-gradient(
     130deg,
     #8C6728 0%, 
     #B58A45 20%, 
@@ -66,9 +69,19 @@ body {
   -webkit-background-clip: text;
   color:transparent;
 }
-.chara{
-  font-size:30px;
-}
 .inform{
   font-size:18px;
+  background:linear-gradient(
+    130deg,
+    #8C6728 0%, 
+    #B58A45 20%, 
+    #D4AF6A 40%, 
+    #FFF1C2 55%, 
+    #F2D995 70%, 
+    #B58A45 88%, 
+    #8C6728 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color:transparent;  
 }
