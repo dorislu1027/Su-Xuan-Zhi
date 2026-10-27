@@ -1,0 +1,74 @@
+/* 网页背景 */
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(
+        120deg,
+        #DDF7FF,
+        #EFFBFF,
+        #FFFFFF,
+        #FFF9EB,
+        #F9E8BC,
+        #DDF7FF
+    );
+    background-size: 300% 300%;
+    animation: flowingBackground 16s ease infinite;
+}
+
+/*背景动态*/
+@keyframes flowingBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/*左右分栏*/
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+/*左边的立绘*/
+.profile-box{
+  flex: 0 0 40%;
+}
+
+/*立绘图片*/
+.portrait{
+  width:100%;
+  max-width:420px;
+  height:auto;
+  display:block;
+}
+
+/*右边的人物介绍*/
+.intro{
+  flex:1;
+  line-height:1.8;
+   background:linear-gradient(
+    130deg,
+    #8C6728 0%, 
+    #B58A45 20%, 
+    #D4AF6A 40%, 
+    #FFF1C2 55%, 
+    #F2D995 70%, 
+    #B58A45 88%, 
+    #8C6728 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color:transparent;
+}
+.chara{
+  font-size:30px;
+}
+.inform{
+  font-size:18px;
+}
