@@ -53,8 +53,6 @@ body {
 
 /*右边的人物介绍*/
 .intro{
-  flex:1;
-  line-height:1.8;
   flex: 1;
   line-height: 1.8;
   background-color: rgba(255, 255, 255, 0.45);
@@ -68,7 +66,7 @@ body {
     #8C6728 0%, 
     #B58A45 20%, 
     #D4AF6A 40%, 
-    #FFF1C2 55%, 
+    #E8CB83 55%, 
     #F2D995 70%, 
     #B58A45 88%, 
     #8C6728 100%
