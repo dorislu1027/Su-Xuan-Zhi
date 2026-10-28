@@ -77,6 +77,7 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   color:transparent;
+    -webkit-text-stroke: 0.6px #8C6728;
 }
 .inform{
   font-size:18px;
@@ -92,5 +93,6 @@ body {
   );
   background-clip: text;
   -webkit-background-clip: text;
-  color:transparent;  
+  color:transparent; 
+    -webkit-text-stroke: 0.6px #8C6728;
 }
