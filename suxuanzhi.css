@@ -97,3 +97,16 @@ body {
   color:transparent; 
     -webkit-text-stroke: 0.6px #8C6728;
 }
+
+/*鼠标悬停*/
+.portrait:hover{
+    transform: translateY(-5px);
+    box-shadow:
+    0 0 18px rgba(100, 190, 255, 0.4),
+    0 0 38px rgba(100, 190, 255, 0.28);   
+}
+
+/*星星特效*/
+.body::after{
+    
+}
