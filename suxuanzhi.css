@@ -31,8 +31,11 @@ body {
 /*左右分栏*/
 .profile {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 40px;
+    max-width: 1400px;
+    margin: 30px auto;
+    padding: 20px;
 }
 
 /*左边的立绘*/
