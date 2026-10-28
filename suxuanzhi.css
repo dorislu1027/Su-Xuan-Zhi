@@ -48,6 +48,7 @@ body {
 
 /*立绘图片*/
 .portrait{
+  transition: transform 0.4s ease;
   width:100%;
   max-width:420px;
   height:auto;
@@ -101,7 +102,6 @@ body {
 /*鼠标悬停*/
 .portrait:hover{
     transform: translateY(-5px) scale(1.02);
-    transition: transform 0.4s ease;
     box-shadow:
     0 0 18px rgba(100, 190, 255, 0.4),
     0 0 38px rgba(100, 190, 255, 0.28);   
