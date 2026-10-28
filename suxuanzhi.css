@@ -41,6 +41,9 @@ body {
 /*左边的立绘*/
 .profile-box{
   flex: 0 0 40%;
+  flex: 0 0 40%;
+  display: flex;
+  justify-content: center;
 }
 
 /*立绘图片*/
