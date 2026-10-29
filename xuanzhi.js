@@ -10,7 +10,6 @@ star.style.top = Math.random()*100+"vh";
 star.style.color = "#D4AF65";
 star.style.fontSize = "18px";
 particles.appendChild(star);
-}
 // 随机水平移动距离
 const moveX = (Math.random() - 0.5) * 100;
 // 随机垂直移动距离
@@ -18,3 +17,5 @@ const moveY = (Math.random() - 0.5) * 100;
 // 把随机距离交给 CSS
 star.style.setProperty("--move-x", moveX + "px");
 star.style.setProperty("--move-y", moveY + "px");
+
+}
