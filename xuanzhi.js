@@ -8,7 +8,7 @@ star.style.position = "absolute";
 star.style.left = Math.random()*100+"vw";
 star.style.top = Math.random()*100+"vh";
 star.style.color = "#D4AF65";
-star.style.fontSize = "18px";
+star.style.fontSize = "6px";
 particles.appendChild(star);
 // 随机水平移动距离
 const moveX = (Math.random() - 0.5) * 100;
