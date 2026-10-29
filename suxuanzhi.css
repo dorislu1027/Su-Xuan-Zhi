@@ -116,3 +116,9 @@ body {
   overflow: hidden;
   z-index: 0;
 }
+.particle {
+  color: #D4AF65;
+  font-size: 8px;
+  opacity: 0.6;
+  text-shadow: 0 0 8px #D4AF65;
+}
