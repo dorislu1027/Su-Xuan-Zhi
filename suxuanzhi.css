@@ -106,30 +106,3 @@ body {
     0 0 38px rgba(100, 190, 255, 0.28);   
 }
 
-/*简易粒子特效*/
-body::after {
-  content: "";
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index:10;
-  opacity:1;
-  background-image:
-    radial-gradient(circle, #D4AF65 2px, transparent 3px),
-    radial-gradient(circle, #8EDDF5 2px, transparent 3px),
-    radial-gradient(circle, #FFFFFF 2px, transparent 3px);
-  background-size:
-    100px 100px,
-    130px 130px,
-    80px 80px;
-    animation: float-stars 12s ease-in-out infinite alternate;
-}
-/*粒子漂浮*/
-@keyframes float-stars {
-  from {
-    background-position: 0 0, 30px 50px, 60px 20px;
-  }
-  to {
-    background-position: 50px -40px, -20px 30px, 20px 60px;
-  }
-}
