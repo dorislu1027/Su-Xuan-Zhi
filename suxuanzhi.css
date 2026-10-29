@@ -121,7 +121,7 @@ body {
   font-size: 8px;
   opacity: 0.6;
   text-shadow: 0 0 8px #D4AF65;
-  animation: float 5s ease-in-out infinite alternate;
+  animation: float var(--timing) ease-in-out infinite alternate;
 }
 
 /*粒子漂浮*/
