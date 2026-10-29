@@ -13,9 +13,9 @@ particles.appendChild(star);
 //随机移动时间
 const timing = Math.random()*5 + 5;
 // 随机水平移动距离
-const moveX = (Math.random() - 0.5) * 100;
+const moveX = (Math.random() - 0.5) * 300;
 // 随机垂直移动距离
-const moveY = (Math.random() - 0.5) * 100;
+const moveY = (Math.random() - 0.5) * 300;
 // 把随机距离交给 CSS
 star.style.setProperty("--move-x", moveX + "px");
 star.style.setProperty("--move-y", moveY + "px");
