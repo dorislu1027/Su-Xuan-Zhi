@@ -107,7 +107,18 @@ body {
     0 0 38px rgba(100, 190, 255, 0.28);   
 }
 
-/*星星特效*/
-.body::after{
-    
+/*简易粒子特效*/
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle, #D4AF65 2px, transparent 3px),
+    radial-gradient(circle, #8EDDF5 2px, transparent 3px),
+    radial-gradient(circle, #FFFFFF 2px, transparent 3px);
+  background-size:
+    100px 100px,
+    130px 130px,
+    80px 80px;
 }
