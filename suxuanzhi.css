@@ -36,6 +36,8 @@ body {
     max-width: 1400px;
     margin: 30px auto;
     padding: 20px;
+    position: relative;
+    z-index: 1;
 }
 
 /*左边的立绘*/
@@ -106,3 +108,11 @@ body {
     0 0 38px rgba(100, 190, 255, 0.28);   
 }
 
+/*粒子特效*/
+#particles {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 0;
+}
