@@ -121,4 +121,14 @@ body::after {
     100px 100px,
     130px 130px,
     80px 80px;
+    animation: float-stars 12s ease-in-out infinite alternate;
+}
+/*粒子漂浮*/
+@keyframes float-stars {
+  from {
+    background-position: 0 0, 30px 50px, 60px 20px;
+  }
+  to {
+    background-position: 50px -40px, -20px 30px, 20px 60px;
+  }
 }
