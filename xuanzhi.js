@@ -1,6 +1,6 @@
 const particles = document.getElementById("particles");
 const colors = ["#D4AF65", "#72CFF2", "#FFFFFF"];
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i < 50; i++) {
 const star = document.createElement("span");
 star.textContent = "●";
 star.className = "particle";
