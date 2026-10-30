@@ -120,7 +120,7 @@ body {
   color: #D4AF65;
   font-size: 8px;
   opacity: 0.6;
-  text-shadow: 0 0 8px #D4AF65;
+  text-shadow: 0 0 8px currentcolor;
   animation: float var(--timing) ease-in-out infinite alternate;
 }
 
