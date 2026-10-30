@@ -11,7 +11,7 @@ star.style.color = colors[randomIndex];
 //Math.random():随机生成一个0~1之间的数字
 star.style.left = Math.random()*100+"vw";
 star.style.top = Math.random()*100+"vh";
-star.style.fontSize = "6px";
+star.style.fontSize = "8px";
 particles.appendChild(star);
 //随机移动时间
 const timing = Math.random()*5 + 5;
