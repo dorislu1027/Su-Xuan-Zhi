@@ -80,7 +80,7 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   color:transparent;
-    -webkit-text-stroke: 0.6px #8C6728;
+  -webkit-text-stroke: 0.6px #8C6728;
 }
 .inform{
   font-size:18px;
@@ -120,7 +120,10 @@ body {
   color: #D4AF65;
   font-size: 8px;
   opacity: 0.6;
-  text-shadow: 0 0 8px currentcolor;
+  text-shadow:
+  0 0 4px color-mix(in srgb, currentColor 20%, transparent),
+  0 0 8px color-mix(in srgb, currentColor 30%, transparent),
+  0 0 14px color-mix(in srgb, currentColor 40%, transparent);
   animation: float var(--timing) ease-in-out infinite alternate;
 }
 
