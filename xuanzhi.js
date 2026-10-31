@@ -1,5 +1,5 @@
 const particles = document.getElementById("particles");
-const colors = ["#E5DCC5", "#D9E5E5", "#E8E0D2"];
+const colors = ["#C9B47F", "#9DBFC3", "#C7AF91"];
 for (let i = 0; i < 50; i++) {
 const star = document.createElement("span");
 star.textContent = "";
