@@ -117,15 +117,19 @@ body {
   z-index: 0;
 }
 .particle {
-  color: #D4AF65;
-  font-size: 2px;
-  opacity: 0.6;
-  blur:2px;
-  text-shadow:
-  0 0 4px color-mix(in srgb, currentColor 40%, transparent),
-  0 0 8px color-mix(in srgb, currentColor 30%, transparent),
-  0 0 14px color-mix(in srgb, currentColor 20%, transparent);
-  animation: float var(--timing) ease-in-out infinite alternate;
+  width: 18px;
+  height: 18px;
+/*生成粒子*/
+  background: radial-gradient(
+    circle,
+    currentColor 0%,
+    color-mix(in srgb, currentColor 35%, transparent) 15%,
+    transparent 70%
+  );
+  opacity: 0.5;
+  filter: blur(2px);
+  animation:
+    float var(--timing) ease-in-out infinite alternate;
 }
 
 /*粒子漂浮*/
