@@ -2,7 +2,7 @@ const particles = document.getElementById("particles");
 const colors = ["#D4AF65", "#72CFF2", "#FFFFFF"];
 for (let i = 0; i < 50; i++) {
 const star = document.createElement("span");
-star.textContent = "●";
+star.textContent = "";
 star.className = "particle";
 star.style.position = "absolute";
 //Math.floor():向下取整
@@ -11,7 +11,6 @@ star.style.color = colors[randomIndex];
 //Math.random():随机生成一个0~1之间的数字
 star.style.left = Math.random()*100+"vw";
 star.style.top = Math.random()*100+"vh";
-star.style.fontSize = "8px";
 particles.appendChild(star);
 //随机移动时间
 const timing = Math.random()*5 + 5;
