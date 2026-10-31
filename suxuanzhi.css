@@ -54,6 +54,7 @@ body {
   max-width:420px;
   height:auto;
   display:block;
+  border: 2px solid #D8C18D;
   border-radius:20px;
 }
 
